@@ -4,6 +4,7 @@ import { DiCssdeck } from 'react-icons/di';
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 import { useTheme } from 'styled-components';
+import Logo from "../../images/Logo.png"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -13,7 +14,8 @@ const Navbar = () => {
       <NavbarContainer>
         <NavLogo to='/'>
           <a href='/' style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <DiCssdeck size="3rem" /> <Span>Keerthana Mikkili</Span>
+            {/* <DiCssdeck size="3rem" /> <Span>Keerthana Mikkili</Span> */}
+            <img style={{width: "3rem"}}src={Logo}/> <Span>Keerthana Mikkili</Span>
           </a>
         </NavLogo>
         <MobileIcon>
