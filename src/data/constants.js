@@ -146,6 +146,21 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://media.licdn.com/dms/image/v2/C560BAQEuzVBzTq8wqA/company-logo_200_200/company-logo_200_200/0/1642492124118/servicenow_logo?e=1740009600&v=beta&t=4h8HGO_KHlQuGCQl1YuuC6Ke-Z1dXnhWvryAlmu9J_4",
+    role: "Software Engineer Intern",
+    company: "ServiceNow",
+    date: "May 2024 - Aug 2024",
+    desc: "As a Software Engineer Intern at ServiceNow, I automated the processing of GitLab markdown files with a Python Flask service, reducing manual effort by 60% and boosting update frequency. I deployed the application in Docker and Kubernetes, improving deployment efficiency by 50%. Additionally, I integrated Python-GitLab and ServiceNow APIs to keep documentation up-to-date, reducing error rates and enhancing accessibility.",
+    skills: [
+      "Python",
+      "GitLab CI/CD",
+      "Docker",
+      "Kubernetes",
+      "ServiceNow"
+    ],
+  },
+  {
+    id: 1,
     img: "https://1000logos.net/wp-content/uploads/2021/08/Capgemini-Emblem.png",
     role: "Associate Consultant",
     company: "Capgemini",
@@ -169,7 +184,7 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     img: "https://logos-world.net/wp-content/uploads/2020/06/Accenture-Emblem.png",
     role: "Application Development Analyst",
     company: "Accenture",
@@ -192,8 +207,8 @@ export const education = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSAFvLlKteKwb6YygTIHPLedXoQ_u9HyaoI3d6JtbAVQ&s",
     school: "Northeastern University, Boston, MA",
     date: "Sep 2023 - Present",
-    grade: "4 GPA",
-    desc: "I'm currently pursuing my Master's in Software Engineering Systems at Northeastern University, maintaining a 4.0 CGPA. I've completed courses in Network Structures and Cloud computing, Data Structures and Algorithms, Full Stack Web Development and Object-Oriented Design with Java. Beyond academics, I actively participate in networking events at the Cambridge Innovation Center, visited the Microsoft Campus, and placed as a Top 10 finalist in the Protothon 4.0 Hackathon. Additionally, I'm part of the organizing committee for Boston Code and Coffee events, promoting tech community engagement.",
+    grade: "3.92 GPA",
+    desc: "I'm currently pursuing my Master's in Software Engineering Systems at Northeastern University, maintaining a 3.92 CGPA. I've completed courses in Network Structures and Cloud computing, Data Structures and Algorithms, Full Stack Web Development and Object-Oriented Design with Java, Data Management and Database Design, User Experience Design/Testing. Beyond academics, I actively participate in Tech and networking events hosted by Google Developers Group, Code & Coffee at the Cambridge Innovation Center,  Microsoft and Google, and placed as a Top 10 finalist in the Protothon 4.0 Hackathon. Additionally, I'm part of the organizing committee for Boston Code and Coffee events, promoting tech community engagement.",
     degree: "Master of Science in Software Engineering Systems",
   },
   {
